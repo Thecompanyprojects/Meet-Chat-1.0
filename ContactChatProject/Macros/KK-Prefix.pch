@@ -1,0 +1,86 @@
+//
+//  KK-Prefix.pch
+//  ContactChatProject
+//
+//  Created by 杨帅 on 2018/12/10.
+//  Copyright © 2018 pan. All rights reserved.
+//
+
+#ifndef KK_Prefix_pch
+#define KK_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+
+
+#import "UtilsMacro.h"
+#import "ConfigMacro.h"
+#import "AFNetAPIClient.h"
+#import "Interface.h"
+
+// 系统库
+#import <CommonCrypto/CommonCrypto.h>
+
+// 第三方库
+#import <Bugly/Bugly.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <Masonry/Masonry.h>
+#import <AFNetworking/AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <YYModel/YYModel.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <YYText/YYText.h>
+
+
+//#import <XTOOLAPP_LIBRARY/XYAdConfiguration.h>
+//#import <XTOOLAPP_LIBRARY/XYAdObject.h>
+//#import <XTOOLAPP_LIBRARY/XYNetworkTools.h>
+//#import <XTOOLAPP_LIBRARY/XYAdBaseManager.h>
+
+// Third
+#import "UIViewController+MMDrawerController.h"
+#import "MMDrawerController.h"
+#import "MMDrawerVisualState.h"
+
+// 分类头文件
+#import "XTCategoryHeader.h"
+
+#import "NotificationName.h"
+
+#import "WangHeader.h"
+
+#import "CCUserModel.h"
+
+#import "BaseViewController.h"
+#import "BaseNavigationController.h"
+
+#import "APIResult.h"
+#import "CCLoadingHUD.h"
+#import "TZImagePickerController.h"
+#import "NSString+AdBlowfish.h"
+#import "XYNetworkTools.h"
+#import "MJRefresh.h"
+
+#import "SDWebImageDownloader.h"
+#import "CCMessageItem.h"
+//#import "XYLogManager.h"
+#import "TimerGet.h"
+#import "UIButton+EnlargeHitArea.h"
+#import "CCMessageDetailController.h"
+#import "CCmessageModel.h"
+#import "FMDB.h"
+#import "WJGAFCheckNetManager.h"
+#import "CCmessageModel.h"
+#import "AppDelegate.h"
+#import "NSString+SKYExtension.h"
+#import "ChatManager.h"
+
+
+#endif
+
+#endif /* KK_Prefix_pch */
